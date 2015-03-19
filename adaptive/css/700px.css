@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;/*increased font size by 2px to be able to be seen easier and fill white space*/
+	margin-left:0px;
+}
+
+#wrapper {
+	width:700px;
+	padding:5px;
+	margin-left:-5px;	
+}
+/*Headings*/
+h1 {
+	font-size:36px;/*all headings increased in size by 2px to 6px depending on how they can be seen easier and look appropriate*/
+	width:680px;
+	padding:5px;
+}
+h2 {
+	font-size:28px;
+	text-align:left;/*aligned to left to show headings of same level in same position as the user scrolls down*/ 
+}
+h3 {
+	font-size:16px;
+}
+h4 {
+	font-size:32px;
+}
+
+
+/*Navigation*/
+#nav {
+	width:700px;
+}
+#nav ul li a {
+	padding:0px 33px;
+	width:50px;
+	}
+/*Content*/
+#content {
+	font-size:14px;/*font size increased to be able to see clearly.*/
+}
+.cover-image {
+	display:none;
+}
+
+/*top*/
+#ad-container {
+	margin-left:-40px;
+	padding:10px;
+}
+#ad-container img {
+	width:158px;
+	height:120px;
+}
+.ad-image {
+	margin-right:10px;
+	width: 158px;
+}
+.ad-image figure {
+	width:160px;
+}
+/*mid*/
+#news {
+	width:660px;
+	margin-left:10px;
+}
+.newsdate {
+	font-size:12px;/*font size increased to be able to see clearly but still remains an appropriate size compared to main news content.*/
+}
+#poll-comp {
+	width:660px;
+	padding:10px;
+	margin-top:10px;
+	font-size:16px;/*font size increased to be able to see clearly.*/
+	float:none;
+}
+.question {
+	color:#C5110B;
+}
+.poll-answer-yes {
+	float:left;
+	width:160px;
+	line-height:100px;
+	padding-bottom:8px;/*this allows the heading "compitition" to align left without any blockage*/
+}
+.poll-answer-no {
+	float:left;
+	width:160px;
+	margin-top:-20px;
+	line-height:100px;
+}
+
+/*Bottom*/
+#bottom-content {
+	height:500px;
+}
+#mag-reviews {
+	float:left;
+	width:260px;
+	margin:4px 0px 0px 0px;/*margin changed to remove unwanted space*/
+	font-size:16px;/*font size increased to be able to see clearly.*/
+}
+#mag-reviews p {
+	float:left;
+	width:260px;
+	margin-top:-36px;
+}
+#mag-container {
+	float:left;
+	margin:50px 30px 0px 30px;/*margins changed to fit area correctly*/
+}
+#links {
+	padding:0px;/*padding removed to fit center correctly*/
+	margin-left:-400px;
+	width:400px;
+	margin-top:244px;
+}
+#links ul {
+	font-size:16px;/*font size increased to be able to see clearly and finger navigate with easier on touch screen devices.*/
+	margin-top:-37px;
+}
+#links ul li {
+	display:inline-block;
+}
+
+/*Horizontal Rules*/
+
+.hr1 {/*margins changed to look more appropriate and fit content well*/	
+	margin-top:40px;
+	margin-bottom:25px;	
+}
+.hr2 {
+	margin-top:30px;	
+	margin-bottom:10px;	
+}
+.hr3 {
+	margin-top:0px;
+}
+.hr4 {
+	visibility:visible;
+}
+/*Footer*/
+#footer-container {/*Allows full width background colour*/
+	width:680px;
+}
+#Contact-info {
+	display:table-row;
+	padding:0px 0px 0px 0px;
+}
+#footer {
+	padding:20px;
+	width:680px;
+	margin-top: -20px;/*needed to look appropriate on internet explorer*/
+}
+#footer-nav {
+	padding-left:0px;
+}
+#footer-nav ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+}
+#footer-nav ul li {
+	display: inline-block;
+}
+#footer-nav ul li a {
+	display: block;
+	background-color:#999;/*background colour and padding added to make sure users can see and touch the correct link without stuggle*/
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	padding:10px;
+}
+#footer-nav a:hover, #footer-nav .current_page_item a {
+}

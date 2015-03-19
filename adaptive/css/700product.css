@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;/*increased font size by 2px to be able to be seen easier and fill white space*/
+	margin-left:0px;
+}
+
+#wrapper {
+	width:700px;
+	padding:5px;
+	margin-left:-5px;	
+}
+/*Headings*/
+h1 {
+	font-size:36px;/*all headings increased in size by 2px to 6px depending on how they can be seen easier and look appropriate*/
+	width:680px;
+	padding:5px;
+}
+h2 {
+	font-size:32px;
+}
+h3 {
+	font-size:16px;
+}
+h3 img {
+	width:100px;
+	height:50px;
+}
+h3 img:last-child {
+	width:50px;
+}
+
+/*Navigation*/
+#nav {
+	width:700px;
+}
+#nav ul li a {
+	padding:0px 33px;
+	width:50px;
+}
+/*Content*/
+#content {
+	font-size:14px;/*font size increased to be able to see clearly.*/
+}
+/*Gallery*/
+#gallery {
+	padding-top:15px;
+	height:400px;
+}
+.gallery-image {
+	padding:10px;
+	width:100px;
+	float:left;
+}
+.gallery-image img {
+	border:solid thin #C8110B;
+}
+
+.selected-image {
+	width:660px;
+	height:400px;
+	margin-top:0px;
+	margin-left:0px;
+	float:left;
+}
+.selected-image img {
+	width:100%;
+	height:100%;
+}
+
+/*Shopping Cart*/
+#shopping-cart {
+	margin-top:0px;
+	margin-left:0px;
+	width:660px;
+}
+.price {
+	font-size:24px;/*font size increased to be able to see clearly.*/
+	padding-left:10px;/*aligns content to look professional*/
+}
+
+.menu,
+.menu ul {
+	margin-left:70px;
+}
+.menu > li {
+}
+.menu ul {
+	position: absolute;
+	margin-left:-11px;
+	line-height:44px;/*Average finger tap height said by Apple*/
+}
+.menu > li:hover {
+}
+.menu > li:hover ul {
+}
+.menu img {
+}
+
+.buy-now {
+	font-size:30px;/*font size increased to be able to be seen more clearly and finger touch more easily on touch screen products.*/
+	line-height:44px;/*Average finger tap height said by Apple*/
+	width:400px;
+	height:44px;/*Average finger tap height said by Apple*/
+}
+.buy-now:hover {
+}
+#item-description {
+	width:400px;
+	font-size:18px;/*font size increased to be able to see clearly.*/
+	padding-left:10px;/*aligns content to look professional*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*Other Content*/
+
+#similar-product-container img {
+	margin-left:10px;/*displays products perfectly within the center*/
+	width:193.2px;/*1.4 times larger than normal size to view it easier*/
+	height:193.2px;
+}
+.product-image {
+	width:207px;
+}
+#reviews {
+	padding:0px 0px 0px 15px;/*padding changed to fight area appropriately*/
+	height:1000px;/*fits content appropriately*/
+	width:660px;
+}
+#review {
+}
+.rev-image {
+	margin-left:0px;
+}
+.rev-score-title {
+	font-size:20px;/*font size increased to stand out more and be read easier*/
+	width:150px;
+}
+.rev-score-title img{
+	width:120px;/*image size increased to look more appropriate*/
+	height:25px;
+}
+.rev-text {
+	padding-left:0px;/*shows text underneath title and images*/
+	text-align:left;/*makes it more appropriate to read*/
+}
+
+.read-all-review-button {
+	font-size:20px;
+	line-height:44px;/*Average finger tap height said by Apple*/
+	width:211px;
+	margin-left:200px;
+}
+
+.read-all-review-button:hover {
+	background-color:#78081b;
+}
+/*Bottom*/
+#bottom-content-container {
+	margin-bottom:0px;
+}
+#bottom-content {
+	height:500px;
+}
+#mag-reviews {
+	float:left;
+	width:260px;
+	margin:0px;/*margin removed to remove unwanted space*/
+	font-size:16px;/*font size increased to be able to see clearly.*/
+	margin-top:20px;
+}
+#mag-reviews p {
+	float:left;
+	width:260px;
+	margin-top:-20px;
+}
+#mag-container {
+	float:left;
+	margin:51px 30px 0px 30px;/*margins changed to fit area correctly*/
+}
+#links {
+	padding:0px;/*padding removed to fit center correctly*/
+	margin-left:-400px;
+	width:400px;
+	margin-top:260px;
+}
+#links ul {
+	font-size:16px;/*font size increased to be able to see clearly and finger navigate with easier on touch screen devices.*/
+}
+#links ul li {
+	display:inline-block;
+}
+#links ul li a {
+	display:inline-block;
+}
+#links a:hover, #links .current_page_item a {
+}
+
+/*Horizontal Rules*/
+hr {
+	padding:0;
+	margin:0;
+}
+.hr {
+	visibility:hidden;
+}
+.hr1 {
+	margin-top:50px;	
+}
+.hr2 {
+	margin-bottom:-20px;	
+}
+.hr3 {
+	margin-top:50px;
+	width:680px;
+}
+.hr4 {margin-bottom: 20px;
+}
+.hr5 {
+	margin-top:50px;	
+	margin-bottom:30px;
+	width:680px;
+}
+
+/*Footer*/
+#footer-container {/*Allows full width background colour*/
+	width:680px;
+	margin-top:0px;
+}
+#Contact-info {
+	display:table-row;
+	padding:0px 0px 0px 0px;
+}
+#footer {
+	padding:20px;
+	width:680px;
+	margin-top: -20px;/*needed to look appropriate on internet explorer*/
+	margin-left:0px;
+}
+#footer-nav {
+	padding-left:0px;
+}
+#footer-nav ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+}
+#footer-nav ul li {
+	display: inline-block;
+}
+#footer-nav ul li a {
+	display: block;
+	background-color:#999;/*background colour and padding added to make sure users can see and touch the correct link without stuggle*/
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	padding:10px;
+}
+#footer-nav a:hover, #footer-nav .current_page_item a {
+}
